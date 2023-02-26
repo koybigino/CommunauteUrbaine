@@ -3,7 +3,7 @@
         differents <span class="text-green-500">Services</span></h1>
 
     <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">
-        <div class="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
+        <div class="flex flex-col items-center transition-all duration-500 ease-in-out transform hover:-translate-y-3 p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
             <span class="inline-block p-3 text-green-500 bg-green-100 rounded-full  ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -20,7 +20,7 @@
             </p>
 
             <a href="/"
-                class="flex items-center -mx-1 text-sm text-green-500 capitalize transition-colors duration-300 transform hover:underline hover:text-green-600">
+                class="flex items-center -mx-1 text-sm text-green-500 capitalize transition-colors duration-500 transform hover:underline hover:text-green-600">
                 <span class="mx-1">read more</span>
                 <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -31,7 +31,7 @@
             </a>
         </div>
 
-        <div class="flex flex-col items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
+        <div class="flex flex-col items-center transition-all duration-500 ease-in-out transform hover:-translate-y-3 p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
             <span class="inline-block p-3 text-green-500 bg-green-100 rounded-full  ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -48,7 +48,7 @@
             </p>
 
             <a href="/"
-                class="flex items-center -mx-1 text-sm text-green-500 capitalize transition-colors duration-300 transform hover:underline hover:text-green-600">
+                class="flex items-center -mx-1 text-sm text-green-500 capitalize transition-colors duration-500 transform hover:underline hover:text-green-600">
                 <span class="mx-1">read more</span>
                 <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +59,7 @@
             </a>
         </div>
 
-        <div class="flex flex-col  items-center p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
+        <div class="flex flex-col  items-center transition-all duration-500 ease-in-out transform hover:-translate-y-3 p-6 space-y-3 text-center bg-gray-100 rounded-xl ">
             <span class="inline-block p-3 text-green-500 bg-green-100 rounded-full  ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -76,7 +76,7 @@
             </p>
 
             <a href="/"
-                class="flex items-center -mx-1 text-sm text-green-500 capitalize transition-colors duration-300 transform hover:underline hover:text-green-600">
+                class="flex items-center -mx-1 text-sm text-green-500 capitalize transition-colors duration-500 transform hover:underline hover:text-green-600">
                 <span class="mx-1">read more</span>
                 <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">

@@ -24,24 +24,24 @@
 </head>
 
 <body class="bg-gray-100 px-6 mx-auto relative">
-    <div class="absolute right-10 bottom-10">
+    <div class="fixed z-50 right-10 bottom-10">
         <x-whatsapp />
     </div>
-    <header class="mx-auto bg-white">
+    <header class="bg-white">
         <x-navbar />
     </header>
     <main>
         <section class="mt-20">
             <x-mot-de-bienvenu />
         </section>
+        <section class="bg-white mt-20 rounded-xl">
+            <x-partenaires />
+        </section>
         <section class="mt-20">
             <x-carousel />
         </section>
-        <section class="bg-white mt-20 rounded-xl">
-            <x-services />
-        </section>
         <section class="bg-white mt-20 mb-20 rounded-xl">
-            <x-partenaires />
+            <x-services />
         </section>
     </main>
     <footer class="bg-white dark:bg-gray-900">

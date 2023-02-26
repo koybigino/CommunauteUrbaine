@@ -1,7 +1,7 @@
 <nav x-data="{ isOpen: false }" class="bg-white shadow sm:mb-10  rounded-b-xl">
-    <div class="container px-6 py-2 mx-auto">
+    <div class="container py-2 mx-auto">
         <div class="lg:flex justify-between">
-            <div class="flex items-center justify-between">
+            <div class="flex items-center pr-10 justify-between">
                 <a href="#">
                     <img class="transition duration-500 ease-in-out transform hover:scale-105" width="70" height="auto" src="{{ asset('image.jpg') }}" alt="">
                 </a>
@@ -25,15 +25,15 @@
             </div>
 
             <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']"
-                class="absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between">
+                class="absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-500 ease-in-out bg-white lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between">
                 <div
-                    class="flex flex-col text-gray-600 capitalize  lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
+                    class="flex flex-col text-gray-600 capitalize  lg:flex lg:-mx-4 lg:flex-row lg:items-center">
                     <a href="#"
-                        class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">actualites</a>
+                        class="mt-2 transition-colors duration-500 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">actualites</a>
                     <a href="#"
-                        class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">Newletters</a>
+                        class="mt-2 transition-colors duration-500 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">Newletters</a>
                     <a href="#"
-                        class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">Products</a>
+                        class="mt-2 transition-colors duration-500 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">Products</a>
                     <form action="/" class="relative mt-4 lg:mt-0 lg:mx-4">
                         @csrf
                         <span class="absolute inset-y-0 left-0 flex items-center pl-3">
@@ -51,13 +51,13 @@
                 </div>
 
                 <div class="flex justify-start mt-6 lg:flex lg:mt-0 lg:-mx-2">
-                    <a class="hover:text-green-400 py-1 duration-300 transform pr-3 text-gray-500"
+                    <a class="hover:text-green-400 py-1 duration-500 transform pr-3 text-gray-500"
                         href="#">Login</a>
-                    <a class="rounded-xl hover:bg-green-400 text-gray-500 duration-300 transform hover:text-white py-1 px-3 border-2 border-green-400"
+                    <a class="rounded-xl hover:bg-green-400 text-gray-500 duration-500 transform hover:text-white py-1 px-3 border-2 border-green-400"
                         href="#">Logup</a>
                 </div>
                 <div class="mt-3 lg:flex lg:mt-0 lg:-mx-2">
-                    <a class="hover:text-green-400 py-1 duration-300 transform text-gray-500"
+                    <a class="hover:text-green-400 py-1 duration-500 transform text-gray-500"
                         href="#"><x-language-dropdown/></a>
                 </div>
             </div>

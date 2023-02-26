@@ -10,7 +10,7 @@
                     tips, tutorials, and more.</p>
 
                 <div class="flex mt-6 -mx-2">
-                    <a href="/" class="mx-2 transition-colors duration-300 text-gray-300  hover:text-green-400"
+                    <a href="/" class="mx-2 transition-all duration-500 ease-in-out transform hover:-translate-y-3 transition-colors duration-500 text-gray-300  hover:text-green-400"
                         aria-label="LinkInd">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-linkedin text-sky-500 w-10 h-10 fill-current" viewBox="0 0 16 16">
@@ -20,7 +20,7 @@
                     </a>
 
                     <a href="/"
-                        class="mx-2 transition-colors duration-300 text-gray-300 hover:text-green-400 hover:text-green-400"
+                        class="mx-2 transition-all duration-500 ease-in-out transform hover:-translate-y-3 transition-colors duration-500 text-gray-300 hover:text-green-400 hover:text-green-400"
                         aria-label="Instgram">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-instagram text-red-500 w-10 h-10 fill-current" viewBox="0 0 16 16">
@@ -30,7 +30,7 @@
                     </a>
 
                     <a href="/"
-                        class="mx-2 transition-colors duration-300 text-gray-300 hover:text-green-400 hover:text-green-400"
+                        class="mx-2 transition-all duration-500 ease-in-out transform hover:-translate-y-3 transition-colors duration-500 text-gray-300 hover:text-green-400 hover:text-green-400"
                         aria-label="Facebook">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="w-10 h-10 text-blue-500 fill-current bi bi-facebook" viewBox="0 0 16 16">
@@ -40,7 +40,7 @@
                     </a>
 
                     <a href="/"
-                        class="mx-2 transition-colors duration-300 text-gray-300 hover:text-green-400 hover:text-green-400"
+                        class="mx-2 transition-all duration-500 ease-in-out transform hover:-translate-y-3 transition-colors duration-500 text-gray-300 hover:text-green-400 hover:text-green-400"
                         aria-label="Twitter">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-twitter text-sky-500 w-10 h-10 fill-current" viewBox="0 0 16 16">
@@ -50,7 +50,7 @@
                     </a>
 
                     <a href="/"
-                        class="mx-2 transition-colors duration-300 text-gray-300 hover:text-green-400 hover:text-green-400"
+                        class="mx-2  transition-all duration-500 ease-in-out transform hover:-translate-y-3 transition-colors duration-500 text-gray-300 hover:text-green-400 hover:text-green-400"
                         aria-label="Youtube">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                             class="bi bi-youtube text-red-500  w-10 h-10 fill-current" viewBox="0 0 16 16">
