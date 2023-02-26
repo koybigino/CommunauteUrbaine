@@ -12,7 +12,7 @@
                 </svg>
             </span>
 
-            <h1 class="text-xl font-semibold text-gray-700 capitalize ">Newletters</h1>
+            <h1 class="text-xl font-semibold text-red-600 capitalize ">Newletters</h1>
 
             <p class="text-gray-500 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
@@ -40,7 +40,7 @@
                 </svg>
             </span>
 
-            <h1 class="text-xl font-semibold text-gray-700 capitalize ">Products</h1>
+            <h1 class="text-xl font-semibold text-red-600 capitalize ">Products</h1>
 
             <p class="text-gray-500 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non
@@ -68,7 +68,7 @@
                 </svg>
             </span>
 
-            <h1 class="text-xl font-semibold text-gray-700 capitalize ">Actualités</h1>
+            <h1 class="text-xl font-semibold text-red-600 capitalize ">Actualités</h1>
 
             <p class="text-gray-500 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non

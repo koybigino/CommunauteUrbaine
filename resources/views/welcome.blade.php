@@ -23,7 +23,7 @@
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
-<body class="bg-gray-100 px-6 mx-auto relative">
+<body class="bg-yellow-50 px-6 mx-auto relative">
     <div class="fixed z-50 right-10 bottom-10">
         <x-whatsapp />
     </div>
@@ -34,17 +34,20 @@
         <section class="mt-20">
             <x-mot-de-bienvenu />
         </section>
-        <section class="bg-white mt-20 rounded-xl">
+        <section class="bg-white mt-20 rounded-xl shadow-lg">
             <x-partenaires />
         </section>
-        <section class="mt-20">
+        <section class="mt-20 shadow-lg">
             <x-carousel />
         </section>
-        <section class="bg-white mt-20 mb-20 rounded-xl">
+        <section class="bg-white shadow-lg mt-20 rounded-xl">
             <x-services />
         </section>
+        <section class="flex mt-20 mb-20 rounded-xl shadow-lg flex-col max-w-4xl mx-auto overflow-hidden rounded-lg bg-white md:flex-row md:h-48">
+            <x-newletter />
+        </section>
     </main>
-    <footer class="bg-white dark:bg-gray-900">
+    <footer class="bg-white rounded-t-xl dark:bg-gray-900">
         <x-footer />
     </footer>
 </body>

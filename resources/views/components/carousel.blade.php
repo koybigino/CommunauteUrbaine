@@ -14,30 +14,30 @@
     <div class="relative w-full rounded-xl overflow-hidden after:clear-both after:block after:content-['']">
         <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
             data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
-            <img height="100" src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(15).jpg" class="block w-full" alt="..." />
+            <img src="{{asset('commune_6.jpg')}}" class="block w-full h-96 opacity-80" alt="..." />
             <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                <h5 class="text-xl">First slide label</h5>
-                <p>
+                <h5 class="text-3xl font-black">First slide label</h5>
+                <p class="text-xl font-bold">
                     Some representative placeholder content for the first slide.
                 </p>
             </div>
         </div>
         <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
             data-te-carousel-item style="backface-visibility: hidden">
-            <img src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(22).jpg" class="block w-full" alt="..." />
+            <img src="{{asset('commune_5.webp')}}" class="block w-full h-96 opacity-80" alt="..." />
             <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                <h5 class="text-xl">Second slide label</h5>
-                <p>
+                <h5 class="text-3xl font-black">Second slide label</h5>
+                <p class="text-xl font-bold">
                     Some representative placeholder content for the second slide.
                 </p>
             </div>
         </div>
         <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
             data-te-carousel-item style="backface-visibility: hidden">
-            <img src="https://tecdn.b-cdn.net/img/Photos/Slides/img%20(23).jpg" class="block w-full" alt="..." />
+            <img src="{{asset('commune_4.jpg')}}" class="block w-full h-96 opacity-80" alt="..." />
             <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-                <h5 class="text-xl">Third slide label</h5>
-                <p>
+                <h5 class="text-3xl font-black">Third slide label</h5>
+                <p class="text-xl font-bold">
                     Some representative placeholder content for the third slide.
                 </p>
             </div>
