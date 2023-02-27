@@ -14,13 +14,23 @@
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
 
     <!-- Script -->
     <script defer src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
-    <script defer src="https://cdn.tailwindcss.com/3.2.4"></script>
+    <script defer src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script defer>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 
 <body class="bg-yellow-50 px-6 mx-auto relative">
@@ -34,20 +44,20 @@
         <section class="mt-20">
             <x-mot-de-bienvenu />
         </section>
-        <section class="bg-white mt-20 rounded-xl shadow-lg">
-            <x-partenaires />
+        <section class="bg-white pt-10 shadow-lg mt-20 rounded-xl">
+            <x-services />
         </section>
         <section class="mt-20 shadow-lg">
             <x-carousel />
         </section>
-        <section class="bg-white shadow-lg mt-20 rounded-xl">
-            <x-services />
+        <section class="bg-white pt-10 shadow-lg mt-20 rounded-xl">
+            <x-carousel-activite />
         </section>
-        <section class="flex mt-20 mb-20 rounded-xl shadow-lg flex-col max-w-4xl mx-auto overflow-hidden rounded-lg bg-white md:flex-row md:h-48">
-            <x-newletter />
+        <section class="bg-white mt-20 mb-20 rounded-xl shadow-lg">
+            <x-partenaires />
         </section>
     </main>
-    <footer class="bg-white rounded-t-xl dark:bg-gray-900">
+    <footer class="rounded-t-xl bg-gray-900">
         <x-footer />
     </footer>
 </body>

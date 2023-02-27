@@ -29,11 +29,11 @@
                 <div
                     class="flex flex-col text-gray-600 capitalize  lg:flex lg:-mx-4 lg:flex-row lg:items-center">
                     <a href="#"
-                        class="mt-2 transition-colors duration-500 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">actualites</a>
+                        class="mt-2 transition-colors duration-500 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">Home</a>
                     <a href="#"
-                        class="mt-2 transition-colors duration-500 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">Newletters</a>
+                        class="mt-2 transition-colors duration-500 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">Presentation</a>
                     <a href="#"
-                        class="mt-2 transition-colors duration-500 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">Products</a>
+                        class="mt-2 transition-colors duration-500 transform lg:mt-0 lg:mx-4 hover:text-green-400 ">Services</a>
                     <form action="/" class="relative mt-4 lg:mt-0 lg:mx-4">
                         @csrf
                         <span class="absolute inset-y-0 left-0 flex items-center pl-3">

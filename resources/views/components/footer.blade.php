@@ -66,13 +66,13 @@
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                 <div>
                     <h3 class=" uppercase text-white">About</h3>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Newsletters</a>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Actualités</a>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Products</a>
+                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Home</a>
+                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Presentation</a>
+                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Services</a>
                 </div>
 
                 <div>
-                    <h3 class=" uppercase text-white">Products</h3>
+                    <h3 class=" uppercase text-white">Services</h3>
                     <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Carte Bleu</a>
                     <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Licence</a>
                     <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Stationnement</a>
@@ -82,12 +82,16 @@
 
                 <div>
                     <h3 class=" uppercase text-white">Contact</h3>
-                    <a  class="block mt-2 text-sm text-gray-400 hover:underline" href="tel:+2376793849382">(+237) 6793849382</a>
+                    <a  class="block mt-2 text-sm text-gray-400 hover:underline" href="tel:+237655883838 ">(+237) 655883838 </a>
                     <a  class="block mt-2 text-sm text-gray-400 hover:underline" href="mailto:example@email.com">example@email.com</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <section class="flex mt-5 mb-5 rounded-xl flex-col max-w-4xl mx-auto overflow-hidden rounded-lg bg-transparent md:flex-row md:h-48">
+        <x-newletter />
+    </section>
 
     <hr class="h-px my-6 border-none bg-gray-700">
 

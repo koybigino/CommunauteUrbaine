@@ -20,7 +20,7 @@
 
     <!-- Dropdown menu -->
     <div x-show="isOpen" @click.away="isOpen = false" 
-        class="absolute -right-20 z-20 w-48 py-2 mt-2 bg-white rounded-md shadow-xl">
+        class="absolute -right-20 lg:right-2 z-20 w-48 py-2 mt-2 bg-white rounded-md shadow-xl">
         <a href="#"
             class="flex items-center px-3 py-3 text-sm text-gray-600 capitalize transition-colors duration-500 transform hover:bg-gray-100">
             <img width="30" src="{{ asset('france.jpeg') }}" alt="" srcset="">
