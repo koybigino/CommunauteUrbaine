@@ -11,7 +11,7 @@
                 </div>
             </div>
 
-            <a href="/"
+            <a href="/actualite"
                 class="flex items-center -mx-1 text-sm text-green-500 capitalize transition-colors duration-500 transform hover:underline hover:text-green-600">
                 <span class="mx-1">read more</span>
                 <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20"
@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <a href="/"
+            <a href="/actualite"
                 class="flex items-center -mx-1 text-sm text-green-500 capitalize transition-colors duration-500 transform hover:underline hover:text-green-600">
                 <span class="mx-1">read more</span>
                 <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20"
@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <a href="/"
+            <a href="/actualite"
                 class="flex items-center -mx-1 text-sm text-green-500 capitalize transition-colors duration-500 transform hover:underline hover:text-green-600">
                 <span class="mx-1">read more</span>
                 <svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20"

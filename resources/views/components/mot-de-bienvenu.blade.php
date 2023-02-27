@@ -4,6 +4,10 @@
             <h2 class="text-3xl font-semibold text-gray-800 lg:text-4xl">Bienvenu dans la communauté urbaine de <span class="text-red-600">Yaounde</span></h2>
 
             <p class="mt-4 text-sm text-gray-500 lg:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates.</p>
+            <div class="flex flex-col mt-6 space-y-3 lg:space-y-0 lg:flex-row">
+                <a href="/profile" class="block px-5 py-2 text-sm font-medium tracking-wider text-center text-white transition-colors duration-300 transform bg-green-500 rounded-md hover:bg-green-600">Demarer</a>
+                <a href="#" class="block px-5 py-2 text-sm font-medium tracking-wider text-center text-green-700 transition-colors duration-300 transform bg-gray-200 rounded-md lg:mx-4 hover:bg-gray-300">About</a>
+            </div>
         </div>
     </div>
 
