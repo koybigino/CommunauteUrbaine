@@ -6,7 +6,7 @@
         <x-carousel />
     </section>
     <section class="bg-white pt-10 shadow-lg mt-20 rounded-xl">
-        <x-carousel-activite />
+        <x-actualite />
     </section>
     <section class="bg-white mt-20 mb-20 rounded-xl shadow-lg">
         <x-partenaires />

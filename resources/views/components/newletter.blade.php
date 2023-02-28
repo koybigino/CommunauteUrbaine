@@ -1,7 +1,7 @@
 <div class="md:flex md:items-center md:justify-center md:w-1/2 md:bg-transparent">
     <div class="px-6 py-6 md:px-8 md:py-0">
         <h2 class="text-lg font-bold text-white">Sign Up pour la mise à jour des <span
-                class="text-red-600 text-red-600">Newletters</span></h2>
+                class="text-red-600">Newletters</span></h2>
 
         <p class="mt-2 text-sm text-gray-600  md:text-gray-400">Inscrivez-vous à notre newsletter pour être informé de la
             publication de nouveaux articles.</p>

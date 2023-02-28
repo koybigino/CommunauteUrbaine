@@ -4,7 +4,7 @@
 
     <div class="grid content-center grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-5">
         <div
-            class=" transition-all ease-in-out duration-500 text-gray-500 hover:text-red-500 text-center duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            class=" transition-all text-gray-500 hover:text-red-500 text-center duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
             <a href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" class="xl:h-20 sm:h-8 h-5 md:h-10 inline fill-current" viewBox="0 0 16 16">
                     <path
@@ -19,7 +19,7 @@
         </div>
 
         <div
-            class=" transition-all ease-in-out duration-500 text-center text-gray-500 hover:text-red-500 duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            class=" transition-all text-center text-gray-500 hover:text-red-500 duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
             <a href="/">
                 <svg class="xl:h-20 sm:h-8 h-5 md:h-10 inline fill-current " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                     <path
@@ -32,7 +32,7 @@
         </div>
 
         <div
-            class=" transition-all ease-in-out duration-500 text-center text-gray-500 hover:text-red-500 duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            class=" transition-all text-center text-gray-500 hover:text-red-500 duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
             <a href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" class="xl:h-20 sm:h-8 h-5 md:h-10 inline fill-current " viewBox="0 0 16 16">
                     <path
@@ -47,7 +47,7 @@
         </div>
 
         <div
-            class=" transition-all ease-in-out duration-500 text-center text-gray-500 hover:text-red-500 duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            class=" transition-all text-center text-gray-500 hover:text-red-500 duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
             <a href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" class="xl:h-20 sm:h-8 h-5 md:h-10 inline fill-current " viewBox="0 0 16 16">
                     <path
@@ -60,7 +60,7 @@
         </div>
 
         <div
-            class=" transition-all ease-in-out duration-500 text-center text-gray-500 hover:text-red-500 duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
+            class=" transition-all text-center text-gray-500 hover:text-red-500 duration-500 ease-in-out transform hover:-translate-y-3 justify-center col-span-1 md:col-span-2 lg:col-span-1">
             <a href="/">
                 <svg xmlns="http://www.w3.org/2000/svg" class="xl:h-20 sm:h-8 h-5 md:h-10 inline mt-1 fill-current " viewBox="0 0 16 16">
                     <path d="M8.27 8.074c.893 0 1.419-.545 1.419-1.488s-.526-1.482-1.42-1.482H6.778v2.97H8.27Z" />

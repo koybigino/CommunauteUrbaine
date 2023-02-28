@@ -33,14 +33,22 @@ Route::get('/licence', function() {
     return view('profile.transport');
 });
 
-Route::get('/particulier', function() {
-    return view('profile.particulier');
-});
-
-Route::get('/entreprise', function() {
-    return view('profile.entreprise');
+Route::get('/autorisation-circuler', function() {
+    return view('profile.autorisation');
 });
 
 Route::get('/actualite', function() {
     return view('actualite.index');
+});
+
+Route::get('/login', function() {
+    return view('login');
+});
+
+Route::get('/register', function() {
+    return view('register');
+});
+
+Route::get('/parking', function() {
+    return view('profile.parking');
 });

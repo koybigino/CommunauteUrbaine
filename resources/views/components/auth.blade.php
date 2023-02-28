@@ -1,11 +1,12 @@
+@props(['title'])
+
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{$title}}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -32,20 +33,14 @@
         }
     </script>
 </head>
-
-<body class="bg-white px-6 mx-auto relative">
-    <div class="fixed z-50 right-10 bottom-10">
-        <x-whatsapp />
-    </div>
-    <header class="bg-white rounded-b-xl">
-        <x-navbar />
-    </header>
-    <main>
-        {{ $slot }}
-    </main>
-    <footer class="rounded-t-xl bg-gray-900">
-        <x-footer />
-    </footer>
+<body>
+    <section class="bg-white">
+        <div class="container flex items-center justify-center min-h-screen px-6 mx-auto">
+            <form class="w-full max-w-md" action="/">
+                @csrf
+                {{$slot}}
+            </form>
+        </div>
+    </section>
 </body>
-
 </html>

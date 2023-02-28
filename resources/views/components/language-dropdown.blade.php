@@ -1,7 +1,7 @@
 <div x-data="{ isOpen: false }" class="relative inline-block ">
     <!-- Dropdown toggle button -->
-    <button type="reset" @click="isOpen = !isOpen"
-        class="relative z-10 block hover:text-gray-700 transition-color duration-500 ease-in-out text-gray-500 bg-white pr-5 rounded-md   focus:outline-none">
+    <div @click="isOpen = !isOpen"
+        class="relative cursor-pointer z-10 block hover:text-gray-700 transition-color duration-500 ease-in-out text-gray-500 bg-white pr-5 rounded-md   focus:outline-none">
         <div>Language</div>
 
         <div class="absolute bottom-1 right-1">
@@ -16,7 +16,7 @@
                     d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
             </svg>
         </div>
-    </button>
+    </div>
 
     <!-- Dropdown menu -->
     <div x-show="isOpen" @click.away="isOpen = false" 

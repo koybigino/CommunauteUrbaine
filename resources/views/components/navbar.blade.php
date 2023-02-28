@@ -1,4 +1,4 @@
-<nav x-data="{ isOpen: false }" class="bg-white shadow sm:mb-10  rounded-b-xl">
+<nav x-data="{ isOpen: false }" class="bg-white shadow sm:mb-10">
     <div class="container py-2 mx-auto">
         <div class="lg:flex justify-between">
             <div class="flex items-center pr-10 justify-between">
@@ -25,7 +25,7 @@
             </div>
 
             <div x-cloak :class="[isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full']"
-                class="absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-500 ease-in-out bg-white lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between">
+                class="absolute inset-x-0 z-20 flex-1 w-full px-6 py-4 transition-all duration-500 ease-in-out bg-white lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-white lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center lg:justify-between">
                 <div
                     class="flex flex-col text-gray-600 capitalize  lg:flex lg:-mx-4 lg:flex-row lg:items-center">
                     <a href="/"
@@ -52,13 +52,12 @@
 
                 <div class="flex justify-start mt-6 lg:flex lg:mt-0 lg:-mx-2">
                     <a class="hover:text-green-400 py-1 duration-500 transform pr-3 text-gray-500"
-                        href="/">Login</a>
+                        href="/login">Login</a>
                     <a class="rounded-xl hover:bg-green-400 text-gray-500 duration-500 transform hover:text-white py-1 px-3 border-2 border-green-400"
-                        href="/">Logup</a>
+                        href="/register">Logup</a>
                 </div>
                 <div class="mt-3 lg:flex lg:mt-0 lg:-mx-2">
-                    <a class="hover:text-green-400 py-1 duration-500 transform text-gray-500"
-                        href="/"><x-language-dropdown/></a>
+                    <x-language-dropdown/>
                 </div>
             </div>
         </div>
