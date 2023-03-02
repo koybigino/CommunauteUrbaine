@@ -1,7 +1,7 @@
 <div x-data="{ isOpen: false }" class="relative inline-block ">
     <!-- Dropdown toggle button -->
     <div @click="isOpen = !isOpen"
-        class="relative cursor-pointer z-10 block hover:text-gray-700 transition-color duration-500 ease-in-out text-gray-500 bg-white pr-5 rounded-md   focus:outline-none">
+        class="relative cursor-pointer z-10 block hover:text-gray-200 transition-color duration-500 ease-in-out text-white font-semibold bg-transparent pr-5 rounded-md   focus:outline-none">
         <div>Language</div>
 
         <div class="absolute bottom-1 right-1">
@@ -20,7 +20,7 @@
 
     <!-- Dropdown menu -->
     <div x-show="isOpen" @click.away="isOpen = false" 
-        class="absolute -right-20 lg:right-2 z-20 w-48 py-2 mt-2 bg-white rounded-md shadow-xl">
+        class="absolute -right-20 lg:right-2 z-20 w-48 py-2 mt-2 bg-transparent rounded-md shadow-xl">
         <a href="#"
             class="flex items-center px-3 py-3 text-sm text-gray-600 capitalize transition-colors duration-500 transform hover:bg-gray-100">
             <img width="30" src="{{ asset('france.jpeg') }}" alt="" srcset="">

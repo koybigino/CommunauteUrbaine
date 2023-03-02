@@ -6,7 +6,7 @@
 
         <h3 class="mt-3 text-xl font-medium text-center text-gray-600 ">Bienvenue</h3>
 
-        <p class="mt-1 text-center text-gray-50">Connectez vous à votre compte</p>
+        <p class="mt-1 text-center text-gray-800">Connectez vous à votre compte</p>
     </div>
 
     <div class="relative flex items-center mt-8">
@@ -19,7 +19,7 @@
         </span>
 
         <input type="text"
-            class="block w-full py-3 text-gray-700 bg-white border rounded-lg px-11 focus:border-green-400 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full py-3 text-gray-700 bg-transparent border rounded-lg px-11 focus:border-green-400 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Username or email">
     </div>
 
@@ -33,7 +33,7 @@
         </span>
 
         <input type="password"
-            class="block w-full px-10 py-3 text-gray-700 bg-white border rounded-lg focus:border-green-400 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
+            class="block w-full px-10 py-3 text-gray-700 bg-transparent border rounded-lg focus:border-green-400 focus:ring-green-300 focus:outline-none focus:ring focus:ring-opacity-40"
             placeholder="Password">
     </div>
 
@@ -43,7 +43,7 @@
             Sign In
         </button>
 
-        <div class="flex items-center justify-center py-4 text-center bg-gray-50">
+        <div class="flex items-center justify-center py-4 text-cente">
             <span class="text-sm text-gray-600 ">N'avez vous pas un compte ? </span>
 
             <a href="/register"

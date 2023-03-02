@@ -1,84 +1,74 @@
 <x-layaout>
-    <section class="bg-white grid grid-cols-1 ld:grid-cols-12 md:grid-cols-12 shadow-lg rounded lg:pb-10 lg:mb-20 pb-10">
+    <section
+        class="bg-transparent grid grid-cols-1 ld:grid-cols-12 md:grid-cols-12 shadow-lg rounded lg:pb-10 lg:mb-20 pb-10">
         <div class="col-span-9 px-6 pb-16 mx-auto">
-            <h1 class="text-xl py-5 font-semibold text-gray-800 lg:text-4xl"> <span class="text-green-400">Titre : </span> La vente des produits pharmaceutiques dans les marchés désormais interdite à Yaoundé</h1>
-            <div id="carouselExampleCaptions" class="relative" data-te-carousel-init data-te-carousel-slide>
-                <div class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0"
-                    data-te-carousel-indicators>
-                    <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="0" data-te-carousel-active
-                        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="1"
-                        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="2"
-                        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="relative rounded-xl overflow-hidden after:clear-both after:block after:content-['']">
-                    <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                        data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
-                        <img src="{{asset('actualité_1.jpg')}}" class="block w-full h-96 opacity-80" alt="..." />
-                    </div>
-                    <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                        data-te-carousel-item style="backface-visibility: hidden">
-                        <img src="{{asset('actualité_2.webp')}}" class="block w-full h-96 opacity-80" alt="..." />
-                    </div>
-                    <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-                        data-te-carousel-item style="backface-visibility: hidden">
-                        <img src="{{asset('actualité_3.jpg')}}" class="block w-full h-96 opacity-80" alt="..." />
-                    </div>
-                </div>
-                <button
-                    class="absolute top-0 bottom-0 left-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-                    type="button" data-te-target="#carouselExampleCaptions" data-te-slide="prev">
-                    <span class="inline-block h-8 w-8">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="h-6 w-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
-                        </svg>
-                    </span>
-                    <span
-                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
-                </button>
-                <button
-                    class="absolute top-0 bottom-0 right-0 z-[1] flex w-[15%] items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
-                    type="button" data-te-target="#carouselExampleCaptions" data-te-slide="next">
-                    <span class="inline-block h-8 w-8">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="h-6 w-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                        </svg>
-                    </span>
-                    <span
-                        class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
-                </button>
-            </div>
+            <h1 class="text-xl py-5 font-semibold text-gray-800 lg:text-4xl"> <span class="text-green-400">Titre : </span>
+                La vente des produits pharmaceutiques dans les marchés désormais interdite à Yaoundé</h1>
+            <x-carousel :images="['actualité_1.jpg', 'actualité_2.webp', 'commune_1.jpg']" />
             <div class="">
-                <p class="mt-6 text-gray-500">L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs. L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs.</p>
-                <p class="mt-6 text-gray-500">L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs. L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs.</p>
-                <p class="mt-6 text-gray-500">L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs. L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs.</p>
+                <p class="mt-6 text-gray-500">L'équipe travaillant en étroite collaboration avec la Communauté urbaine
+                    de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une
+                    conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la
+                    délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer
+                    les valeurs universelles du sport aux jeunes sportifs. L'équipe travaillant en étroite collaboration
+                    avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour
+                    participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du
+                    Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le
+                    projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs.</p>
+                <p class="mt-6 text-gray-500">L'équipe travaillant en étroite collaboration avec la Communauté urbaine
+                    de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une
+                    conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la
+                    délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer
+                    les valeurs universelles du sport aux jeunes sportifs. L'équipe travaillant en étroite collaboration
+                    avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour
+                    participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du
+                    Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le
+                    projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs.</p>
+                <p class="mt-6 text-gray-500">L'équipe travaillant en étroite collaboration avec la Communauté urbaine
+                    de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une
+                    conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la
+                    délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer
+                    les valeurs universelles du sport aux jeunes sportifs. L'équipe travaillant en étroite collaboration
+                    avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour
+                    participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du
+                    Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le
+                    projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs.</p>
             </div>
         </div>
         <div class="col-span-3 container lg:pt-32 pt-5 mx-auto">
             <h3 class="text-2xl font-bold mb-5 text-gray-800 text-center">Actualités similaires</h3>
-            <x-act image="actualité_1.jpg" link='/actualite' title="La vente des produits pharmaceutiques dans les marchés désormais interdite à Yaoundé">
+            <x-act image="actualité_1.jpg" link='/actualite'
+                title="La vente des produits pharmaceutiques dans les marchés désormais interdite à Yaoundé">
 
                 <x-slot:content>
-                    L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs.
-                </x-slot>
+                    L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125
+                    garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse
+                    organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole
+                    conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs
+                    universelles du sport aux jeunes sportifs.
+                    </x-slot>
             </x-act>
+            <hr class="h-px w-3/5 mx-auto my-6 border-none bg-gray-400 opacity-40">
             <x-act image="actualité_3.jpg" link='/actualite' title="Les marchés désormais interdite à Yaoundé">
 
                 <x-slot:content>
-                    L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs.
-                </x-slot>
+                    L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125
+                    garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse
+                    organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole
+                    conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs
+                    universelles du sport aux jeunes sportifs.
+                    </x-slot>
             </x-act>
+            <hr class="h-px w-3/5 mx-auto my-6 border-none bg-gray-400 opacity-40">
             <x-act image="actualité_2.webp" link='/actualite' title="Yaoundé est en en plein evolution">
 
                 <x-slot:content>
-                    L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125 garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs universelles du sport aux jeunes sportifs.
-                </x-slot>
+                    L'équipe travaillant en étroite collaboration avec la Communauté urbaine de Douala sélectionnera 125
+                    garçons et filles âgés de 6 à 17 ans pour participer à ce camp. Dans une conférence de presse
+                    organisée dans la capitale économique du Cameroun mercredi 22 février, la délégation espagnole
+                    conduite par Andrès Muntaner a expliqué que le projet contribuera à inculquer les valeurs
+                    universelles du sport aux jeunes sportifs.
+                    </x-slot>
             </x-act>
         </div>
     </section>

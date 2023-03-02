@@ -1,9 +1,9 @@
 <div class="md:flex md:items-center md:justify-center md:w-1/2 md:bg-transparent">
     <div class="px-6 py-6 md:px-8 md:py-0">
-        <h2 class="text-lg font-bold text-white">Sign Up pour la mise à jour des <span
+        <h2 class="text-lg font-bold text-yellow-800">Sign Up pour la mise à jour des <span
                 class="text-red-600">Newletters</span></h2>
 
-        <p class="mt-2 text-sm text-gray-600  md:text-gray-400">Inscrivez-vous à notre newsletter pour être informé de la
+        <p class="mt-2 text-sm text-gray-700">Inscrivez-vous à notre newsletter pour être informé de la
             publication de nouveaux articles.</p>
     </div>
 </div>
@@ -18,7 +18,7 @@
                 type="text" name="email" placeholder="Enter your email" aria-label="Enter your email">
 
             <button
-                class="px-4 py-3 text-sm font-medium tracking-wider text-gray-100 uppercase transition-colors duration-300 transform bg-green-500 rounded-md hover:bg-green-600 focus:bg-green-600 focus:outline-none">souscrire</button>
+                class="px-4 py-3 text-sm font-medium tracking-wider text-gray-700 uppercase transition-colors duration-300 transform bg-green-500 rounded-md hover:bg-green-600 focus:bg-green-600 focus:outline-none">souscrire</button>
         </div>
     </form>
 </div>

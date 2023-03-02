@@ -33,17 +33,17 @@
     </script>
 </head>
 
-<body class="bg-white px-6 mx-auto relative">
+<body class="bg-gradient-to-r from-gray-200 via-gray-200 to-gray-200 px-6 mx-auto relative">
     <div class="fixed z-50 right-10 bottom-10">
         <x-whatsapp />
     </div>
-    <header class="bg-white rounded-b-xl">
+    <header class="bg-transparent rounded-b-xl">
         <x-navbar />
     </header>
     <main>
         {{ $slot }}
     </main>
-    <footer class="rounded-t-xl bg-gray-900">
+    <footer class="rounded-t-xl bg-gray-300">
         <x-footer />
     </footer>
 </body>

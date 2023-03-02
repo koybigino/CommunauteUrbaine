@@ -6,7 +6,7 @@
                     <img class="w-auto h-20" src="{{ asset('image.jpg') }}" alt="">
                 </a>
 
-                <p class="max-w-sm mt-2 text-gray-400">Join 31,000+ other and never miss out on new
+                <p class="max-w-sm mt-2 text-gray-800">Join 31,000+ other and never miss out on new
                     tips, tutorials, and more.</p>
 
                 <div class="flex mt-6 -mx-2">
@@ -65,25 +65,25 @@
         <div class="mt-6 lg:mt-0 lg:flex-1">
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
                 <div>
-                    <h3 class=" uppercase text-white">About</h3>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Home</a>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Presentation</a>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Services</a>
+                    <h3 class=" uppercase text-yellow-800 font-semibold">A propos</h3>
+                    <a href="/" class="block mt-2 text-sm text-gray-800 hover:underline">Accueil</a>
+                    <a href="/" class="block mt-2 text-sm text-gray-800 hover:underline">Presentation</a>
+                    <a href="/" class="block mt-2 text-sm text-gray-800 hover:underline">Services</a>
                 </div>
 
                 <div>
-                    <h3 class=" uppercase text-white">Services</h3>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Carte Bleu</a>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Licence</a>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Stationnement</a>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Autorisation de Circuler</a>
-                    <a href="/" class="block mt-2 text-sm text-gray-400 hover:underline">Parking</a>
+                    <h3 class=" uppercase text-yellow-800 font-semibold">Services</h3>
+                    <a href="/" class="block mt-2 text-sm text-gray-800 hover:underline">Carte Bleu</a>
+                    <a href="/" class="block mt-2 text-sm text-gray-800 hover:underline">Licence</a>
+                    <a href="/" class="block mt-2 text-sm text-gray-800 hover:underline">Stationnement</a>
+                    <a href="/" class="block mt-2 text-sm text-gray-800 hover:underline">Autorisation de Circuler</a>
+                    <a href="/" class="block mt-2 text-sm text-gray-800 hover:underline">Parking</a>
                 </div>
 
                 <div>
-                    <h3 class=" uppercase text-white">Contact</h3>
-                    <a  class="block mt-2 text-sm text-gray-400 hover:underline" href="tel:+237655883838 ">(+237) 655883838 </a>
-                    <a  class="block mt-2 text-sm text-gray-400 hover:underline" href="mailto:example@email.com">example@email.com</a>
+                    <h3 class=" uppercase text-yellow-800 font-semibold">Contact</h3>
+                    <a  class="block mt-2 text-sm text-gray-800 hover:underline" href="tel:+237655883838 ">(+237) 655883838 </a>
+                    <a  class="block mt-2 text-sm text-gray-800 hover:underline" href="mailto:example@email.com">example@email.com</a>
                 </div>
             </div>
         </div>
@@ -93,9 +93,9 @@
         <x-newletter />
     </section>
 
-    <hr class="h-px my-6 border-none bg-gray-700">
+    <hr class="h-px my-6 border-none bg-gray-400">
 
     <div>
-        <p class="text-center text-gray-500">© koybigino 2023 - All rights reserved</p>
+        <p class="text-center text-gray-700">© koybigino 2023 - All rights reserved</p>
     </div>
 </div>

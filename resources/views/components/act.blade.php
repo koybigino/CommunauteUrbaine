@@ -1,7 +1,7 @@
 @props(['title', 'link', 'image'])
 
-<div class="flex flex-col items-center transition-all duration-500 ease-in-out transform hover:-translate-y-3 p-6 space-y-3 text-center bg-white rounded-xl ">
-    <div class="w-full max-w-xs overflow-hidden bg-white rounded-lg shadow-lg ">
+<div class="flex flex-col items-center transition-all duration-500 ease-in-out transform hover:-translate-y-3 p-6 space-y-3 text-center bg-transparent rounded-xl ">
+    <div class="w-full max-w-xs overflow-hidden bg-transparent rounded-lg shadow-lg ">
         <img class="object-cover w-full h-56" src="{{asset($image)}}" alt="avatar">
     
         <div class="py-5 px-2 truncate text-center">
